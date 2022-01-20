@@ -2,8 +2,7 @@ local library = {
     flags = { },
     items = { }
 }
-if getgenv().Color == nil then getgenv().Color = Color3.fromRGB(252, 3, 215) end
-if getgenv().Color2 == nil then getgenv().Color2 = Color3.fromRGB(144, 3, 252) end
+
 -- Services
 local players = game:GetService("Players")
 local uis = game:GetService("UserInputService")
